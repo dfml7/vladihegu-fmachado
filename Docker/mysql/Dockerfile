@@ -1,3 +1,8 @@
-FROM ubuntu
+FROM mysql
 
-RUN apt update
+ENV MYSQL_ROOT_PASSWORD mysqlpass22
+ENV MYSQL_WP_DATABASE wordpress
+ENV MYSQL_WP_USER wp_user
+ENV MYSQL_WP_PASSWORD pass
+
+EXPOSE 3306
