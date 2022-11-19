@@ -1,3 +1,2 @@
-FROM ubuntu
+FROM nginx
 
-RUN apt update
