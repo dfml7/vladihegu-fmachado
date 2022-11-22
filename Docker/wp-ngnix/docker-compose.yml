@@ -3,12 +3,12 @@ version: '3.8'
 
 services:
   database1:
-#    env_file: .env
+    env_file: .env
     build: ../mysql
-#    restart: always 
+    restart: always 
     volumes:
       - dbdata:/var/lib/mysql
- #   command: --default-authentication-plugin=mysql_native_password
+    command: --default-authentication-plugin=mysql_native_password
 
 
 #Wordpress
