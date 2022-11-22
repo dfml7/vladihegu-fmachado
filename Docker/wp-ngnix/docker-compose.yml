@@ -1,10 +1,10 @@
 # Container wordpress 
-version: '3.8'
+version: '3.3'
 
 services:
   database:
     env_file: .env
-    build: ./mysql
+    build: ../mysql
     restart: always 
     volumes:
       - dbdata:/var/lib/mysql
