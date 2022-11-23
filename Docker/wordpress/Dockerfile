@@ -1,1 +1,3 @@
-FROM ubuntu
+FROM wordpress:latest
+
+
