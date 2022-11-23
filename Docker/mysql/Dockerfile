@@ -5,4 +5,3 @@ FROM mysql:latest
 #ENV MYSQL_USER wp_user
 #ENV MYSQL_PASSWORD pass
 
-EXPOSE 3306
